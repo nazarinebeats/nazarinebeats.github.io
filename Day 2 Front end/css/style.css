@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+}
+h1 {
+  border: 2px solid blue;
+  text-transform: uppercase;
+}
+
+img {
+  border: 10px dotted blueviolet;
+}
+
+blockquote {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+cite {
+  font-size: smaller;
+  font-weight: bold;
+}
+
+ul a:link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul a:visited {
+  text-decoration: none;
+}
+
+ul a:hover {
+  color: rgb(96, 20, 167);
+  text-decoration: underline;
+}
+
+span {
+  color: blue;
+}
+
+a.harvard:link {
+  color: maroon;
+}
