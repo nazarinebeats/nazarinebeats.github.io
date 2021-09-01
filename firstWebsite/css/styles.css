@@ -7,6 +7,9 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/back.png);
+    background-color: rgb(60, 65, 51);
+    background-blend-mode:overlay;
 }
 
 .wrapper {
@@ -26,6 +29,7 @@ header {
     padding-right: 0.3rem;
 }
 
+
 .rightheader {
     border: px solid blue;
     flex-basis: 60%;
@@ -35,19 +39,18 @@ header {
 .rightheader h1 {
     font-size: 3rem;
     margin-bottom: 0px;
-    color: rgb(78, 21, 78);
+    color: white;
 
 }
 .rightheader p {
-    margin-top: 0px; 
+    margin-top: 0px;
+    color: white; 
+
 }
-
-
 
 img {
     border-radius: 1rem;
 }
-
 
 article  {
    
@@ -58,11 +61,8 @@ article img {
     margin: 0 1rem 1rem 0;
 }
 
-artcle {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    border: 3px solid black;
+
+
 }
 
 article:after {
@@ -87,14 +87,18 @@ font-size: 1.2rem;
 margin-right: 2rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
+    
 }
 h2 {
     font-size: 2rem;
-    color: #A51F10;
+    color: white;
     margin: 0;
+}
+p {
+    color: white;
 }
 
 a {
