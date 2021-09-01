@@ -1,0 +1,138 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.leftheader{
+    border: px solid green;
+    flex-basis: 40%;
+    text-align: right;
+    padding-right: 0.3rem;
+}
+
+.rightheader {
+    border: px solid blue;
+    flex-basis: 60%;
+    margin-top: 3rem;
+    padding-left: 0.5rem;
+}
+.rightheader h1 {
+    font-size: 3rem;
+    margin-bottom: 0px;
+    color: rgb(78, 21, 78);
+
+}
+.rightheader p {
+    margin-top: 0px; 
+}
+
+
+
+img {
+    border-radius: 1rem;
+}
+
+
+article  {
+   
+    margin: 2rem 0;
+}
+article img {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+artcle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    border: 3px solid black;
+}
+
+article:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin:o;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    border-top: 1.3px solid red;
+    border-bottom: 1.3px solid black;
+}
+
+li {
+border: px dotted blueviolet;
+font-size: 1.2rem;
+margin-right: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+section {
+    border-bottom: 1px solid red;
+   ;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 1px solid black;
+    margin-top: 0.3rem;
+}
+
+footer p {
+    margin-top: 2rem;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-block;
+}
